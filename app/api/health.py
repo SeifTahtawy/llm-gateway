@@ -9,4 +9,4 @@ async def health_check() -> dict[str, str]:
 
 
 def check_ci() -> int:
-    return "hello"
+    return 0
