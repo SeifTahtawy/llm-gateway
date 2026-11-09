@@ -20,12 +20,12 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
       - name: Install Dependencies
-        runs: uv sync --locked --dev
+        run: uv sync --locked --dev
       - name: Run Tests
-        runs: uv run pytest
+        run: uv run pytest
       - name: Run Ruff
-        runs: uv run ruff check .
+        run: uv run ruff check .
       - name: Check Formatting
-        runs: uv run ruff format --check .
+        run: uv run ruff format --check .
       - name: Run Mypy
-        runs: uv run mypy app tests
+        run: uv run mypy app tests
