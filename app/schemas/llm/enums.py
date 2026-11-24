@@ -1,5 +1,6 @@
 from enum import StrEnum
 
+
 class FinishReason(StrEnum):
     """Provider-independent reasons for generation to stop."""
 
@@ -7,7 +8,6 @@ class FinishReason(StrEnum):
     MAX_TOKENS = "max_tokens"
     CONTENT_FILTER = "content_filter"
     OTHER = "other"
-
 
 
 class ProviderName(StrEnum):

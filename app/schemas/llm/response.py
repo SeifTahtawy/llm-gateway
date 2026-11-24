@@ -1,7 +1,11 @@
+from typing import Self
+
 from pydantic import BaseModel, field_validator, model_validator
+
 from app.schemas.llm.enums import FinishReason, ProviderName
 from app.schemas.llm.usage import TokenUsage
-from typing import Self
+
+
 class LLMResponse(BaseModel):
     """Provider-independent response from an LLM provider."""
 
