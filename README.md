@@ -11,7 +11,7 @@ The project aims to simplify communication with different LLM providers by intro
 - **Python 3.12** — Programming language
 - **FastAPI** — API framework
 - **Uvicorn** — ASGI server
-- **HTTPX** — HTTP client for provider communication
+- **HTTPX2** — HTTP client for provider communication
 - **Pydantic** — Data validation and settings management
 - **uv** — Python package and project management
 - **Pytest** — Automated testing
